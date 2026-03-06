@@ -40,6 +40,9 @@
 
 * # Füge, wenn anwendbar, die verwendete Testentwurfs-Technik (z. B. Äquivalenzklassenbildung, Grenzwertanalyse) hinzu.
 
+  
+
+
 ## **Bewertungskriterien:**
 
 ### **Testplan**
@@ -76,9 +79,11 @@
 
 # ---
 
+# 
+
 # **Testplan:** 
 
-# **GroceryMate-Webshop, Erweiterungen**
+# GroceryMate-Webshop, Erweiterungen
 
 1. # **Produktanalyse**
 
@@ -171,7 +176,7 @@ Usability-tests
 
 ## **Ziele**
 
-* ## Funktionalität: Versandkosten werden ab dem Schwellenwert  (20,00 €) auf 0 gesetzt.
+* ## Funktionalität: Versandkosten werden ab dem Schwellenwert ( 20,00 €) auf 0 gesetzt.
 
 * ## Sicherheit: Das Alters-Modal lässt sich nicht durch Schließen oder URL-Manipulation umgehen.
 
@@ -272,5 +277,12 @@ Folgende Dokumente und Werkzeuge werden im Rahmen des Testprozesses erstellt und
     
     
   
+
+
+
+    
+    
+  
+
 
 
