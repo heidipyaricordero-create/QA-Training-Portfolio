@@ -1,2 +1,2 @@
-# Example-Portfolio
-Example Portfolio for Masterschool
+
+ Portfolio for Masterschool QA_Training
