@@ -40,9 +40,9 @@ Webshop mit folgenden Grundfunktionen:
 
 ## **Bewertungs Grundlage**
 
-* ### **Mindestens 3 Fragen pro neuem Feature**
+* ### Mindestens 3 Fragen pro neuem Feature
 
-* ### **Fragen müssen für das Verständnis des Testings relevant sein**
+* ### Fragen müssen für das Verständnis des Testings relevant sein
 
 \----------------------------------------------------------------------------------------------------------------------------
 
@@ -54,11 +54,13 @@ Nutzer sollen Produkte mit einem 5-Sterne-System bewerten und zusätzlich schrif
 
 **Fragen:**
 
-1\. Wer darf bewerten, z.B. eingeloggte Nutzer oder erst nach einem verifizertem Kauf?
+1\.  Ist Rich-Text (Fett, Kursiv, Links) erlaubt oder nur Plain Text?
 
-2\. Soll es eine Mindest- bzw. Gesamtzeichenlänge für den Text geben, zB. 300 \-2000 Zeichen?
+2\. Kann die Gesamtzeichenlänge  (500 Zeichen) unter- oder überschritten werden?
 
 3\. Sind halbe Sterne erlaubt, oder nur ganze Sterne?
+
+4\.  Kann eine Sterne-Bewertung ohne Text abgegeben werden (und umgekehrt)?
 
 **Detaillierte Anforderung:**
 
@@ -74,9 +76,11 @@ Alkoholische Produkte erfordern eine Altersverifikation. Beim Aufrufen der Kateg
 
 1. Was, wenn ein Nutzer über eine Suchmaschine oder einen Direktlink direkt auf die Alokohol \- Produktseite gelangt, anstatt über die Kategorie \- Seite?  
      
-2. Was, wenn ein Nutzer ein ungültiges Datum eingibt; zB. B. 1654?  
+2.  Muss der Inhalt der Seite hinter dem Modal komplett ausgeblendet sein, oder darf man die Produkte im Hintergrund schon "erahnen"?  
      
-3. Wie lange soll das berechnete Ergebnis gespeichert werden? Session-cookie oder Persistent- Cookie (30 Tage)?  
+3. Was, wenn ein Nutzer ein ungültiges Datum eingibt: z.B. 1654?  
+     
+4. Wie lange soll das berechnete Ergebnis gespeichert werden? Session-cookie oder Persistent- Cookie (30 Tage)?  
    
 
 **Detaillierte Anforderung:**
@@ -87,7 +91,7 @@ Um auf die Produktseite Alkohol zu gelangen, muss der Benutzer sein Geburtsdatum
 
 ### **3\. Änderungen bei den Versandkosten**
 
-**Ursprünglich vage formulierte Anforderung:1**
+**Ursprünglich vage formulierte Anforderung:**
 
 Versandkosten entfallen ab einem bestimmten Bestellwert. Darunter fallen Versandkosten an.
 
@@ -95,11 +99,12 @@ Versandkosten entfallen ab einem bestimmten Bestellwert. Darunter fallen Versand
 
 1. Bezieht sich der Mindestbestellwert auf den Brutto- oder Nettobetrag?  
      
-2. Was passiert exakt bei dem Wert  z.B. 50,00 €? Ist es dann Versandkostenfrei oder erst ab 50,01 €?  
+2. Was passiert exakt bei dem Wert  20,00 €? Ist es dann Versandkostenfrei oder erst ab 20,01 €?  
      
 3. Was passiert, wenn ein Artikel hinzu kommt oder entfernt wurde?
 
 **Detaillierte Anforderung:**
 
-Das System berechnet die Vesrsandkosten automatisch basierend auf dem aktuellen Wert der Produkte im Warenkorb. Es wird ein Schwellenwert definiert, ab dem die Lieferung zu versandkostenfrei  freigeschaltet wird.
+Das System berechnet die Versandkosten automatisch basierend auf dem aktuellen Wert der Produkte im Warenkorb. Es wird ein Schwellenwert definiert, ab dem die Lieferung zu versandkostenfrei  freigeschaltet wird.
+
 
