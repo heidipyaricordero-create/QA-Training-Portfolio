@@ -1,20 +1,24 @@
 import pytest
 from count_word_matches import count_word_matches
 
+@pytest.mark.parametrize("a,b, expected",[
+    ("The cat sat on the mat", "cat", 1), 
+    ("Dog dog DOG dOg", "dog", 4),
+    ("Hello world", "world", 1),
+    ("hello hello HELLO", "hello", 3),
+    ("No matches here", "yes", 0),
+    ("catcat cat catdog", "cat", 1),
+    ("a a a", "a", 3)
+    ])
 
-def test_count_word_matches_parametrised():
+def test_count_word_matches_parametrise(a, b, expected):
     """
     Test the function with a variety of string patterns and word counts.
     Verifies case-insensitive matching and ensures that partial 
     word matches (like 'catdog') are correctly excluded.
     """
-    assert count_word_matches("The cat sat on the mat", "cat") == 1
-    assert count_word_matches("Dog dog DOG dOg", "dog") == 4
-    assert count_word_matches("Hello world", "world") == 1
-    assert count_word_matches("hello hello HELLO", "hello")  == 3
-    assert count_word_matches("No matches here", "yes") == 0
-    assert count_word_matches("catcat cat catdog", "cat") == 1
-    assert count_word_matches("a a a", "a") == 3
+    assert count_word_matches(a, b) == expected
+
 
 
 def test_count_word_matches_edge_case_testing():
