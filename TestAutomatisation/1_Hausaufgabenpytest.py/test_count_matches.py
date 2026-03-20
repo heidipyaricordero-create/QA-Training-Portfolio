@@ -49,7 +49,6 @@ def test_count_word_matches_negative_testing():
 @pytest.fixture
 def invalid_inputs():
     return [
-        # (text, target, expected, exception)
         (None, "word", 0, None),
         ("hello world", None, 0, None),
         (123, "word", None, AttributeError),
@@ -59,19 +58,12 @@ def invalid_inputs():
     ]
 
 
-@pytest.mark.parametrize("text,target,expected,exception", [
-    pytest.param(*case) for case in [
-        (None, "word", 0, None),
-        ("hello world", None, 0, None),
-        (123, "word", None, AttributeError),
-        ("hello world", 456, None, AttributeError),
-        (["hello", "world"], "world", None, AttributeError),
-        ("hello world", ["world"], None, AttributeError),
-    ]
-])
-def test_count_word_matches(text, target, expected, exception):
-    if exception:
-        with pytest.raises(exception):
-            count_word_matches(text, target)
-    else:
-        assert count_word_matches(text, target) == expected
+def test_count_word_matches(invalid_inputs):
+    for text, target, expected, exception in invalid_inputs:
+        if exception:
+            with pytest.raises(exception):
+                count_word_matches(text, target)
+        else:
+            assert count_word_matches(text, target) == expected
+
+     
