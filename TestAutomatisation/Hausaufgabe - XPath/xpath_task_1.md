@@ -38,7 +38,7 @@
 13. **Alle Links innerhalb des Dropdowns unter "Services" auswählen:**
 - `//nav//ul[@class='dropdown']//a`
 
-14. **Erstes li_Element im Abschnitt "Our Team" auswählen:**
+14. **Erstes li-Element im Abschnitt "Our Team" auswählen:**
 - `(//div[@class='team']//li)[1]`
 
 15. **Schaltfläche "Send Message" im Kontaktformular finden:**
