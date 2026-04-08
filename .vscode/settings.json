@@ -6,6 +6,8 @@
         "**/.coverage": true,
         "**/htmlcov": true,
         "**/.git": true,
-        "**/.obsidian": true
+        "**/.obsidian": true,
+        "**/.venv": true,
+        "**/.*": false
     }
 }
