@@ -1,0 +1,21 @@
+# Virtuelle Umgebungen
+.venv/
+venv/
+ENV/
+env/
+
+# Python Cache
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Test-Reports & Cache
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+test-results/
+
+# Systemdateien
+.DS_Store
+Thumbs.db
