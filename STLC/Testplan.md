@@ -4,8 +4,6 @@
 
 # \*\*Webshop: [https://grocerymate.masterschool.com/\*\*](https://grocerymate.masterschool.com/**)
 
-# ---
-
 ## **Testplan**
 
 # Erstelle deinen eigenen Testplan für die neuen Funktionen des Webshops\!
@@ -40,9 +38,6 @@
 
 * # Füge, wenn anwendbar, die verwendete Testentwurfs-Technik (z. B. Äquivalenzklassenbildung, Grenzwertanalyse) hinzu.
 
-  
-
-
 ## **Bewertungskriterien:**
 
 ### **Testplan**
@@ -65,8 +60,6 @@
 
 # Wichtig: Der Testplan muss sich auf die neuen Funktionen von Market Mate beziehen\!
 
-# ---
-
 ### **Testfallentwurf**
 
 * # Die Testfälle sollen die drei neuen Funktionen prüfen.
@@ -76,10 +69,6 @@
 * # Falls eine Testentwurfs-Technik anwendbar ist, muss sie angegeben werden.
 
 * # Außerdem muss ergänzt werden, welche Testfälle automatisiert würden – und warum.
-
-# ---
-
-# 
 
 # **Testplan:** 
 
@@ -115,8 +104,6 @@ Endverbraucher, die Lebensmittel online bestellen.
 * Neu: Altersverifikation für Alkohol Kategorie  
 * Neu: Dynamische Versandkostenberechnung mit Schwellenwert
 
----
-
 ## **2\. Teststrategie entwerfen**
 
 ## **Testumfang (Scope of Testing)**
@@ -128,8 +115,6 @@ Endverbraucher, die Lebensmittel online bestellen.
 3. Abgabe und Anzeige von \-sterne \- und Textbewertungen  
 4. Produktsuche  
 5. Login- und Registrierungsprozess
-
-   
 
 * **Nicht im Umfang enthalten:**   
 1. Bank Transaktionen  
@@ -157,10 +142,6 @@ Usability-tests
 * **Ressourcenengpässe**  
   * Maßnahme: Ersatzressourcen identifizieren
 
-
-  
-
-
 **Testlogistik (Testverantwortlichkeiten)**
 
 * Testmanager – Jane Smith  
@@ -168,9 +149,6 @@ Usability-tests
 * QA Engineer (Performance & Sicherheit) – Alice Johnson  
 * QA Engineer (Usability) – Robert Brown  
 * Endanwender für UAT (User Acceptance Test) – Maria Garcia  
-  
-
----
 
 ## **3\. Testziele definieren**
 
@@ -195,13 +173,6 @@ Usability-tests
 
 * ## Die Anwendung ist leicht bedienbar für Endnutzer
 
-    
-    
-  
-
-
----
-
 **4\. Testkriterien definieren**
 
 **Aussetzungskriterien (Suspension Criteria)**
@@ -221,9 +192,6 @@ Usability-tests
 * Sicherheitslücken wurden behoben  
 * Der Abnahmetest (UAT) wurde abgeschlossen und freigegeben
 
-
----
-
 ## **5\. Ressourcenplanung**
 
 * **Personelle Ressourcen:** QA-Team, Entwicklerteam, Endanwender für UAT  
@@ -231,7 +199,6 @@ Usability-tests
 * **Software:** Aktuelle Browser (Chrome, Firefox, Safari, Edge), Betriebssysteme (Windows, macOS, Android, iOS)  
 * **Infrastruktur:** Testumgebungen, Automatisierungs-Tools, Performanztest-Werkzeuge
 
----
 
 ## **6\. Testumgebung planen**
 
@@ -240,9 +207,6 @@ Usability-tests
   * Entwicklung (DEV)  
   * Test (TEST)  
   * Abnahme (ACC – Acceptance)  
-    
-
----
 
 **7\. Zeitplan und Aufwandsschätzung**
 
@@ -259,9 +223,6 @@ Usability-tests
 | Abnahmetest (UAT) | 16.03.2026 | 24.03.2026 | ACC | Endanwender | 50 Stunden |
 | Release/ Golive | 10.04.2026 | 10.03.2026 | PROD | DevOps-Team | 10 Stunden |
 
----
-
-## 
 
 ## **8\. Testartefakte (Test-Deliverables)**
 
